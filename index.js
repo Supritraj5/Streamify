@@ -76,6 +76,7 @@ Array.from(document.getElementsByClassName('songitemplay')).forEach((element)=>{
         if(audioelement.paused|| audioelement.currentTime<=0){
             makeallplay();
             // console.log(`from my sdie ${playtime}`);
+            audioelement.currentTime=0;
             songindex=parseInt(e.target.id);
             mastersongname.innerText=songs[songindex].songname;
             gif.style.opacity=1;
