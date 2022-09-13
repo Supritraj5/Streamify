@@ -1,0 +1,13 @@
+.bottom #start{
+    left: 100px;
+}
+#myprogressbar{
+    position: relative;
+    top: 4px;
+}
+.bottom #end{
+    bottom: 13px;
+}
+.container{
+    height: 66vh;
+}

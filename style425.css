@@ -1,0 +1,28 @@
+.logo{
+    font-size: 1.3rem;
+}
+.songlist h1{
+    font-size: 2rem;
+}
+.container{
+    width: 76%;
+}
+.songcontainer{
+    font-size: 0.9rem;
+}
+.bottom{
+    height: 14vh;
+}
+.bottom #start{
+    top: 10px;
+    left: 30px
+}
+.bottom #end{
+    bottom: 13px;
+    right: 30px;
+}
+.songinfo img{
+    width: 72px;
+    bottom: -12px;
+    position: relative;
+}
